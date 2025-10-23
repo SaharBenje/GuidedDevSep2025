@@ -1,0 +1,1 @@
+﻿/*Process is not valid. Fix invalid elements "afiche mini page " before starting it.*/

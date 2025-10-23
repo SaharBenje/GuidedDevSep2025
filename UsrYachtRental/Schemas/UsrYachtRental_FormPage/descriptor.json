@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "9c603db7-ed12-41c8-92ff-6f77f1557c72",
+    "Name": "UsrYachtRental_FormPage",
+    "ModifiedOnUtc": "\/Date(1760919451000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yacht Rental Management form page",
+    "DependsOn": []
+  }
+}

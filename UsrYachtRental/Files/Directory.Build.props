@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrYachtRental/Schemas/UsrYachtRental/UsrYachtRental.cs" Condition="Exists('$(PkgPath)/UsrYachtRental/Schemas/UsrYachtRental/UsrYachtRental.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/AccountEmployeesNumber/AccountEmployeesNumber.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/AccountEmployeesNumber/AccountEmployeesNumber.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/AccountType/AccountType.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/AccountType/AccountType.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/ContactType/ContactType.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/ContactType/ContactType.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/SysApproval/SysApproval.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/SysApproval/SysApproval.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrAdresse/UsrAdresse.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrAdresse/UsrAdresse.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrCentreDeProfit/UsrCentreDeProfit.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrCentreDeProfit/UsrCentreDeProfit.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrCentreDeProfitLookup/UsrCentreDeProfitLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrCentreDeProfitLookup/UsrCentreDeProfitLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrCodePaysLookup/UsrCodePaysLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrCodePaysLookup/UsrCodePaysLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrContratExecution/UsrContratExecution.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrContratExecution/UsrContratExecution.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrContratsCadre/UsrContratsCadre.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrContratsCadre/UsrContratsCadre.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrDelaidePaiementLookup/UsrDelaidePaiementLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrDelaidePaiementLookup/UsrDelaidePaiementLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrDocumentJuridique/UsrDocumentJuridique.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrDocumentJuridique/UsrDocumentJuridique.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrInseeCategorieJuridique/UsrInseeCategorieJuridique.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrInseeCategorieJuridique/UsrInseeCategorieJuridique.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrInseeNaf/UsrInseeNaf.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrInseeNaf/UsrInseeNaf.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrMoyendePaiementLookup/UsrMoyendePaiementLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrMoyendePaiementLookup/UsrMoyendePaiementLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrObjetRelationContractuelleLookup/UsrObjetRelationContractuelleLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrObjetRelationContractuelleLookup/UsrObjetRelationContractuelleLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrReferentielDocJurSocLookup/UsrReferentielDocJurSocLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrReferentielDocJurSocLookup/UsrReferentielDocJurSocLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrRelation/UsrRelation.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrRelation/UsrRelation.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrSousTypeLookup/UsrSousTypeLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrSousTypeLookup/UsrSousTypeLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrStatutContratLookup/UsrStatutContratLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrStatutContratLookup/UsrStatutContratLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrStatutDJLookup/UsrStatutDJLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrStatutDJLookup/UsrStatutDJLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrStatutLookupsCas/UsrStatutLookupsCas.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrStatutLookupsCas/UsrStatutLookupsCas.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrStatutRelationLookupCas/UsrStatutRelationLookupCas.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrStatutRelationLookupCas/UsrStatutRelationLookupCas.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrTokenStore/UsrTokenStore.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrTokenStore/UsrTokenStore.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrTypeadresse/UsrTypeadresse.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrTypeadresse/UsrTypeadresse.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrTypeDJLookup/UsrTypeDJLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrTypeDJLookup/UsrTypeDJLookup.cs')" />
+		<Compile Include="$(PkgPath)/UsrSterne/Schemas/UsrUsrModeTrasmissionChequeLookup/UsrUsrModeTrasmissionChequeLookup.cs" Condition="Exists('$(PkgPath)/UsrSterne/Schemas/UsrUsrModeTrasmissionChequeLookup/UsrUsrModeTrasmissionChequeLookup.cs')" />
+	</ItemGroup>
+</Project>

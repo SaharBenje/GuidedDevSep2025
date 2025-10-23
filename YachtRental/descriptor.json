@@ -1,0 +1,12 @@
+﻿{
+  "Descriptor": {
+    "UId": "f792fb81-81e9-f431-8078-128098913ea5",
+    "Name": "YachtRental",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1760917308000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/YachtRental.csproj",
+    "Description": "Yacht Rental Management System",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0f5aa41a-b4ae-4ed7-aa71-5e2694e9c09e",
+    "Name": "UsrYachtRental_Detail",
+    "ModifiedOnUtc": "\/Date(1760919451000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yacht Rental Management detail",
+    "DependsOn": []
+  }
+}
